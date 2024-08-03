@@ -33,7 +33,7 @@ __plugin_meta__ = PluginMetadata(
     config=Config,
     extra={},
     type="application",
-    homepage="https://github.com/CCYellowStar2/nonebot_plugin_sunoai",
+    homepage="https://github.com/CCYellowStar2/nonebot-plugin-sunoai",
     supported_adapters=inherit_supported_adapters("nonebot_plugin_alconna"),
 )
 
