@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nonebot-plugin-sunoai"
+version = "0.1.0"
+description = "基于第三方柏拉图api的sunoai插件，支持文生音乐和纯音乐"
+authors = ["CCYellowStar"]
+license = "GPL-3.0-only"
+readme = "README.md"
+homepage = "https://github.com/CCYellowStar2/nonebot-plugin-sunoai"
+repository = "https://github.com/CCYellowStar2/nonebot-plugin-sunoai"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+nonebot2 = ">=2.3.0"
+aiohttp = ">=3.8.4"
+nonebot-plugin-alconna = ">=0.50.2"
+arclet-alconna = ">=1.8.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
